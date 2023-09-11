@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.Music-Box {
+  width: 500px;
+  height: 800px;
+  background-color: rgb(27, 11, 11);
+  /* border: outset chocolate; */
+  box-shadow: 10px 10px 10px rgb(215, 114, 212), 20px 20px 20px greenyellow,
+    30px 30px 30px 30px purple;
+  outline: 10px red solid;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.Music-image {
+  overflow: hidden;
+}
+.Music-name {
+  margin-top: 30px;
+  color: white;
+}
+.Music-heading i {
+  position: relative;
+  left: 260px;
+}
+.Music-heading i:hover {
+  background-color: red;
+  overflow: auto;
+}
+.Music {
+  margin-top: 20px;
+  width: 700px;
+  height: 6px;
+  color: #8f94fb;
+}
+.Music-time {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Music-symbol {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.Music-btn {
+  margin-top: 20px;
+  display: flex;
+  justify-content: end;
+  gap: 30px;
+}
+#control {
+  width: 60%;
+  height: 6px;
+}
+#progress {
+  width: 90%;
+  height: 6px;
+}
